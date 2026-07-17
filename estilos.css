@@ -14,10 +14,13 @@ body {
 }
 
 .credencial {
-  width: 330px;
+  width: 600;
+  height: 350px;
   background: white;
+  border: 1px solid #ede9fe;
   border-radius: 18px;
   padding: 24px;
+  margin: 30px;
   box-shadow: 0 10px 25px rgba(124, 58, 237, 0.18);
 }
 
