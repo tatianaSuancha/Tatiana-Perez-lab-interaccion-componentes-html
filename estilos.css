@@ -1,61 +1,60 @@
-*
-{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
   height: 100vh;
-  background: linear-gradient(135deg, white 0%, #f3e8ff 100%);
+  background: linear-gradient(135deg, #faf5ff, #ede9fe);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .credencial {
-  width: 320px;
-  background-color: white;
-  border: 2px solid purple;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(128, 0, 128, 0.15);
+  width: 330px;
+  background: white;
+  border-radius: 18px;
+  padding: 24px;
+  box-shadow: 0 10px 25px rgba(124, 58, 237, 0.18);
 }
 
 .encabezado {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
+  margin-bottom: 20px;
   padding-bottom: 16px;
-  margin-bottom: 16px;
-  border-bottom: 1px solid #e9d5ff;
+  border-bottom: 2px solid #ede9fe;
 }
 
 .avatar {
-  width: 70px;
-  height: 70px;
-  border: 2px solid purple;
-  background-color: #f8f2ff;
+  width: 80px;
+  height: 80px;
+  border-radius: 8px; /* para redondear las puntas del cuadrado */
+  object-fit: cover;
 }
-
 .nombre {
-  font-size: 18px;
-  color: #7c3aed;
+  font-size: 22px;
+  font-weight: 600;
+  color: #6d28d9;
 }
 
 .rol {
-  font-size: 14px;
-  color: #a78bfa;
+  font-size: 15px;
+  color: #9333ea;
+  margin-top: 4px;
 }
 
 .dato {
-  font-size: 14px;
-  color: #5b21b6;
-  margin-bottom: 10px;
+  font-size: 15px;
+  color: #4b5563;
+  margin-bottom: 12px;
 }
 
 .dato strong {
   color: #7c3aed;
+  font-weight: 600;
 }
